@@ -1,0 +1,26 @@
+/* 
+    Importing fonts from https://fonts.google.com
+    Use the following line to implement the font :
+    
+    font-family: 'Righteous', sans-serif;
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+/* This block of code puts the main-comtainer in the centre of the page */
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#dev-logo{
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'Righteous', sans-serif;
+    font-size: 5em;
+}
