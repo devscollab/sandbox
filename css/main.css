@@ -37,6 +37,7 @@
     justify-content: center;
     align-items: center;
     color: seashell;
+    transition: all 1s;
 }
 
 
@@ -51,6 +52,22 @@ h1{
 #list-container{
     background-color: rgba(170, 202, 55, 1); 
     color:rgb(58,58,67);
+}
+
+#container1:hover{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 85vh;
+    width:  90vw ;
+    background-color: rgb(255, 255, 255,.4);
+    border: rgba(58, 58, 67, 1) solid 0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(170, 202, 55, 1);
 }
 /* This block of code puts the container in the centre of the page */
 #container2{
