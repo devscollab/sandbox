@@ -5,96 +5,127 @@
     font-family: 'Righteous', sans-serif;
 
 */
-@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.main-container{
-    height: 100vh; /* vh is % height w.r.t. the vertical height of page */
-    
+.main-container {
+  height: 100vh; /* vh is % height w.r.t. the vertical height of page */
 }
-#landing{
-    background-image: url(../images/bg.jpg);
-    background-attachment: fixed;
-    background-repeat:no-repeat;
-    background-size: cover;
+
+#landing {
+  background-image: url(../images/bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /* This block of code puts the comtainer in the centre of the page */
-#container1{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 85vh;
-    width:  90vw ;
-    background-color: rgba(0, 0, 0, 0.4);
-    border: rgba(170, 202, 55, 1) solid 0.3em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: seashell;
-    transition: all 1s;
+#container1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 85vh;
+  width: 90vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: rgba(170, 202, 55, 1) solid 0.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: seashell;
+  transition: all 1s;
 }
 
-
-#dev-logo{
-    margin-top: 20px;
+#dev-logo {
+  margin-top: 20px;
 }
 
-h1{
-    font-family: 'Righteous', sans-serif;
-    font-size: 5em;
+h1 {
+  font-family: "Righteous", sans-serif;
+  font-size: 5em;
 }
-#list-container{
-    background-color: rgba(170, 202, 55, 1); 
-    color:rgb(58,58,67);
+#list-container {
+  background-color: rgba(170, 202, 55, 1);
+  color: rgb(58, 58, 67);
 }
 
-#container1:hover{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 85vh;
-    width:  90vw ;
-    background-color: rgb(255, 255, 255,.4);
-    border: rgba(58, 58, 67, 1) solid 0.3em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgba(170, 202, 55, 1);
+#container1:hover {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 85vh;
+  width: 90vw;
+  background-color: rgb(255, 255, 255, 0.4);
+  border: rgba(58, 58, 67, 1) solid 0.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(170, 202, 55, 1);
 }
+
 /* This block of code puts the container in the centre of the page */
-#container2{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
+#container2 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
 }
 
-p{
-    font-family: 'Righteous', sans-serif;
-    font-size: 25px; 
-    margin-bottom: 2px;
+p {
+  font-family: "Righteous", sans-serif;
+  font-size: 25px;
+  margin-bottom: 2px;
 }
 
-span{
-    font-family: 'Righteous', sans-serif;
-    font-size: 20px; 
+span {
+  font-family: "Righteous", sans-serif;
+  font-size: 20px;
 }
 
-ol, ul{
-    font-family: sans-serif; 
-    font-size: 20px;
+ol,
+ul {
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
-li{
-    margin: 10px;
+li {
+  margin: 10px;
 }
 
+.iconsize {
+  font-size: 2rem;
+  color: black;
+  padding: 1rem;
+}
+
+.iconsize:hover {
+  opacity: 0.6;
+  font-size: 2.2rem;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.486);
+  text-decoration: none;
+}
+
+#icondiv {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
