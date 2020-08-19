@@ -98,7 +98,8 @@ ul {
 }
 
 li {
-  margin: 10px;
+  margin-left: 5%;
+  
 }
 
 .iconsize {
@@ -129,3 +130,11 @@ a:hover {
   text-align: center;
   width: 100%;
 }
+
+
+@media screen and (min-width: 400px) {
+  .main-head{
+    text-align: center;
+  }
+}
+
