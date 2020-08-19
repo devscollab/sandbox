@@ -131,7 +131,6 @@ a:hover {
   width: 100%;
 }
 
-<<<<<<< HEAD
 
 @media screen and (min-width: 400px) {
   .main-head{
@@ -139,41 +138,3 @@ a:hover {
   }
 }
 
-=======
-#sitelink:hover {
-  height: 5.2rem;
-  width: 5.2rem;
-}
-
-#siteimg {
-  margin-top: 10px;
-  width: 5rem;
-  height: 5rem;
-  position: relative;
-  align-self: center;
-  border-radius: 25%;
-}
-
-.Contributors {
-  font-family: Roboto, sans-serif;
-  display: flex;
-  flex-direction: row;
-}
-
-.Contributors span {
-  font-weight: bold;
-  padding-top: 0.5rem;
-}
-.Contributors ul {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.Contributors ul li {
-  font-size: 1rem;
-  list-style: none;
-  padding: 0.3rem;
-}
->>>>>>> 30ad77605dcc5ad7873e931ccc4ddd75eeb178ce
