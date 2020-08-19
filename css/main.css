@@ -3,7 +3,6 @@
     Use the following line to implement the font :
     
     font-family: 'Righteous', sans-serif;
-
 */
 @import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -99,7 +98,8 @@ ul {
 }
 
 li {
-  margin: 10px;
+  margin-left: 5%;
+  
 }
 
 .iconsize {
@@ -131,6 +131,15 @@ a:hover {
   width: 100%;
 }
 
+<<<<<<< HEAD
+
+@media screen and (min-width: 400px) {
+  .main-head{
+    text-align: center;
+  }
+}
+
+=======
 #sitelink:hover {
   height: 5.2rem;
   width: 5.2rem;
@@ -167,3 +176,4 @@ a:hover {
   list-style: none;
   padding: 0.3rem;
 }
+>>>>>>> 30ad77605dcc5ad7873e931ccc4ddd75eeb178ce
