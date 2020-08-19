@@ -78,6 +78,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
+  margin-left: 1rem;
 }
 
 p {
@@ -128,4 +129,41 @@ a:hover {
   display: inline-block;
   text-align: center;
   width: 100%;
+}
+
+#sitelink:hover {
+  height: 5.2rem;
+  width: 5.2rem;
+}
+
+#siteimg {
+  margin-top: 10px;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  align-self: center;
+  border-radius: 25%;
+}
+
+.Contributors {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.Contributors span {
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+.Contributors ul {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Contributors ul li {
+  font-size: 1rem;
+  list-style: none;
+  padding: 0.3rem;
 }
