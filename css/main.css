@@ -99,19 +99,18 @@ ul {
 
 li {
   margin-left: 5%;
-  
 }
 
 .iconsize {
   font-size: 2rem;
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 1rem;
 }
 
 .iconsize:hover {
   opacity: 0.6;
   font-size: 2.2rem;
-  color: rgb(255, 255, 255);
+  color: rgba(91, 136, 40, 0.753);
 }
 
 a {
@@ -121,7 +120,7 @@ a {
 }
 
 a:hover {
-  color: rgba(255, 255, 255, 0.486);
+  color: rgba(0, 0, 0, 0.486);
   text-decoration: none;
 }
 
@@ -131,10 +130,8 @@ a:hover {
   width: 100%;
 }
 
-
 @media screen and (min-width: 400px) {
-  .main-head{
+  .main-head {
     text-align: center;
   }
 }
-
