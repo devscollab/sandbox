@@ -135,3 +135,20 @@ a:hover {
     text-align: center;
   }
 }
+
+
+/* Edits Corner */
+
+.edits-corner-title{
+  font-family: "Righteous", sans-serif;
+}
+
+.edits{
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.editor{
+  font-family: "Righteous", sans-serif;
+}
