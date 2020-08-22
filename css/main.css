@@ -115,14 +115,15 @@ li {
 }
 
 a {
-  color: black;
+  color: rgba(170, 202, 55, 1);
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgba(255, 255, 255, 0.486);
-  text-decoration: none;
+  color: rgba(150, 168, 80, 1);
+  text-decoration: underline;
 }
 
 #icondiv {
