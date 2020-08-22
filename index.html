@@ -8,9 +8,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Sandbox</title>
 
+
   <!-- CSS File link and Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Favicon Link -->
   <link rel="shortcut icon" href="images/logo.png" type="image/PNG" />
@@ -31,7 +33,7 @@
     </div>
   </div>
 
-  <div id="list-container " class="main-container container-fluid">
+  <div id="list-container " class="main-container container-fluid"  data-aos="fade-up-right">
     <div class="center"></div>
     <div id="container2" style="text-align: justify;">
       <p>
@@ -120,6 +122,10 @@
 
   <!-- Main JS File Link -->
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
