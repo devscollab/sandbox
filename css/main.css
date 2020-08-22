@@ -139,6 +139,10 @@ a:hover {
 
 /* Edits Corner */
 
+.edits-corner{
+  margin: 10px;
+}
+
 .edits-corner-title{
   font-family: "Righteous", sans-serif;
 }
