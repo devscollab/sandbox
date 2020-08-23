@@ -13,11 +13,12 @@
 }
 
 .main-container {
-  height: 100vh; 
+  height: 100vh;
   /* vh is % height w.r.t. the vertical height of page */
 }
 
-li,a{
+li,
+a {
   text-justify: center;
 }
 
@@ -127,58 +128,83 @@ a:hover {
 }
 
 .main-head {
-  text-align: center;}
+  text-align: center;
+}
+
+/* Dev LOGO */
+#dev-logo {
+  width: 13rem;
+  height: 13rem;
+}
+
+
+
+/* Edits Corner */
+
+.edits-corner {
+  margin: 10px;
+}
+
+.edits-corner-title {
+  font-family: "Righteous", sans-serif;
+}
+
+.edits {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.editor {
+  font-family: "Righteous", sans-serif;
+}
+
+/* Contributor CSS */
+.contriimg {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.contributor {
+  padding-top: 6px;
+  font-size: 0.8rem;
+  line-height: 4px;
+}
+
+.contri_Flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 750px) {
+  .main-head {
+    font-size: 2.5rem;
+  }
+
+  .email {
+    font-size: 1.6rem;
+  }
+  #dev-logo {
+    width: 10rem;
+    height: 10rem;
+  }
+}
 
 @media screen and (max-width: 550px) {
   .main-head {
     font-size: 2rem;
   }
 
-  .email a{
-    font-size:2rem;
+  .email {
+    font-size: 1.3rem;
   }
-
-
-}
-
-
-/* Edits Corner */
-
-.edits-corner{
-  margin: 10px;
-}
-
-.edits-corner-title{
-  font-family: "Righteous", sans-serif;
-}
-
-.edits{
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-
-}
-
-.editor{
-  font-family: "Righteous", sans-serif;
-}
-
-/* Contributor CSS */
-.contriimg{
-  height: 70px;
-  width: 70px;
-  border-radius:50%;
-}
-
-
-.contributor{
-  padding-top:6px;
-  font-size: 0.8rem;
-  line-height:4px;
-}
-
-.contri_Flex{
-  display:flex;
-  flex-direction:row;
-justify-content:space-around;
-  flex-wrap: wrap;
+  #dev-logo {
+    width: 7rem;
+    height: 7rem;
+  }
 }
