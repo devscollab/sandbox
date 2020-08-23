@@ -157,3 +157,24 @@ a:hover {
 .editor{
   font-family: "Righteous", sans-serif;
 }
+
+/* Contributor CSS */
+.contriimg{
+  height: 70px;
+  width: 70px;
+  border-radius:50%;
+}
+
+
+.contributor{
+  padding-top:6px;
+  font-size: 0.8rem;
+  line-height:4px;
+}
+
+.contri_Flex{
+  display:flex;
+  flex-direction:row;
+justify-content:space-around;
+  flex-wrap: wrap;
+}
