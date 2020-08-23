@@ -129,7 +129,7 @@ a {
   color: rgba(170, 202, 55, 1);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration:underline;
 }
 
 a:hover {
@@ -225,3 +225,20 @@ a:hover {
   }
 }
 
+
+.steps{
+  position:absolute;
+  font-size:20px;
+}
+.step{
+  margin: 20px;
+  position:relative;
+  display:block;
+  background-color: #fbe2e5;
+  border-width: 5px;
+  height: 30px;
+  width: 560px;
+  left:300px;
+  font-size:20px;
+
+}
