@@ -1,7 +1,7 @@
-/* 
+/*
     Importing fonts from https://fonts.google.com
     Use the following line to implement the font :
-    
+
     font-family: 'Righteous', sans-serif;
 */
 @import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
@@ -99,19 +99,18 @@ ul {
 
 li {
   margin-left: 5%;
-  
 }
 
 .iconsize {
   font-size: 2rem;
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 1rem;
 }
 
 .iconsize:hover {
   opacity: 0.6;
   font-size: 2.2rem;
-  color: rgb(255, 255, 255);
+  color: rgba(91, 136, 40, 0.753);
 }
 
 a {
@@ -132,10 +131,29 @@ a:hover {
   width: 100%;
 }
 
-
 @media screen and (min-width: 400px) {
-  .main-head{
+  .main-head {
     text-align: center;
   }
 }
 
+
+/* Edits Corner */
+
+.edits-corner{
+  margin: 10px;
+}
+
+.edits-corner-title{
+  font-family: "Righteous", sans-serif;
+}
+
+.edits{
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.editor{
+  font-family: "Righteous", sans-serif;
+}
