@@ -12,6 +12,15 @@
   padding: 0;
 }
 
+/* Flex Box */
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  overflow: auto;
+}
+
 .main-container {
   height: 100vh; /* vh is % height w.r.t. the vertical height of page */
 }
@@ -49,6 +58,7 @@ h1 {
   font-family: "Righteous", sans-serif;
   font-size: 5em;
 }
+
 #list-container {
   background-color: rgba(170, 202, 55, 1);
   color: rgb(58, 58, 67);
@@ -73,6 +83,7 @@ h1 {
 /* This block of code puts the container in the centre of the page */
 #container2 {
   position: relative;
+  height: 82%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -175,6 +186,6 @@ a:hover {
 .contri_Flex{
   display:flex;
   flex-direction:row;
-justify-content:space-around;
+  justify-content:space-around;
   flex-wrap: wrap;
 }
