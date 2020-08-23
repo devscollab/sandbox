@@ -18,7 +18,6 @@
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: stretch;
-  overflow: auto;
 }
 
 .main-container {
@@ -60,8 +59,10 @@ h1 {
 }
 
 #list-container {
-  background-color: rgba(170, 202, 55, 1);
+  /* background-color: rgba(170, 202, 55, 1); */
+  background-color: White;
   color: rgb(58, 58, 67);
+  overflow: auto;
 }
 
 #container1:hover {
@@ -89,6 +90,7 @@ h1 {
   transform: translate(-50%, -50%);
   padding: 10px;
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 p {
@@ -110,6 +112,7 @@ ul {
 
 li {
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 .iconsize {
@@ -175,7 +178,6 @@ a:hover {
   width: 70px;
   border-radius:50%;
 }
-
 
 .contributor{
   padding-top:6px;
