@@ -1,7 +1,7 @@
-/* 
+/*
     Importing fonts from https://fonts.google.com
     Use the following line to implement the font :
-    
+
     font-family: 'Righteous', sans-serif;
 */
 @import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
@@ -10,6 +10,14 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+/* Flex Box */
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .main-container {
@@ -32,8 +40,10 @@ a {
 /* This block of code puts the comtainer in the centre of the page */
 #container1 {
   position: relative;
+
   height: 100vh;
   width: 100vw;
+
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
@@ -51,9 +61,12 @@ h1 {
   font-family: "Righteous", sans-serif;
   font-size: 5rem;
 }
+
 #list-container {
-  background-color: rgba(170, 202, 55, 1);
+  /* background-color: rgba(170, 202, 55, 1); */
+  background-color: White;
   color: rgb(58, 58, 67);
+  overflow: auto;
 }
 
 #container1:hover {
@@ -71,9 +84,11 @@ h1 {
 /* This block of code puts the container in the centre of the page */
 #container2 {
   position: relative;
+
   padding: 50px 10px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+
 }
 
 p {
@@ -95,6 +110,7 @@ ul {
 
 li {
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 .iconsize {
@@ -208,3 +224,4 @@ a:hover {
     height: 7rem;
   }
 }
+
