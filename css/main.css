@@ -13,7 +13,12 @@
 }
 
 .main-container {
-  height: 100vh; /* vh is % height w.r.t. the vertical height of page */
+  height: 100vh; 
+  /* vh is % height w.r.t. the vertical height of page */
+}
+
+li,a{
+  text-justify: center;
 }
 
 #landing {
@@ -26,9 +31,6 @@
 /* This block of code puts the comtainer in the centre of the page */
 #container1 {
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   height: 85vh;
   width: 90vw;
   background-color: rgba(0, 0, 0, 0.4);
@@ -38,7 +40,7 @@
   justify-content: center;
   align-items: center;
   color: seashell;
-  transition: all 1s;
+  /* transition: all 1s; */
 }
 
 #dev-logo {
@@ -56,9 +58,6 @@ h1 {
 
 #container1:hover {
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   height: 85vh;
   width: 90vw;
   background-color: rgb(255, 255, 255, 0.4);
@@ -73,11 +72,9 @@ h1 {
 /* This block of code puts the container in the centre of the page */
 #container2 {
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   padding: 10px;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 p {
