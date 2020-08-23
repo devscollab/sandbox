@@ -34,6 +34,7 @@
 /* This block of code puts the comtainer in the centre of the page */
 #container1 {
   position: relative;
+  flex: 0 3 auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
