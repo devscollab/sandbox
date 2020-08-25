@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+html{
+  font-size: 85%;
+}
+
 /* Flex Box */
 .flex-container {
   display: flex;
@@ -42,7 +46,7 @@ a {
   position: relative;
 
   height: 100vh;
-  width: 100vw;
+  width: 100%; /*horizontal scroll bar is not visisble*/
 
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
@@ -85,7 +89,7 @@ h1 {
 #container2 {
   position: relative;
 
-  padding: 50px 10px;
+  /* padding: 50px 10px; */
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 
@@ -194,8 +198,42 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.steps{
+  position:absolute;
+  font-size:2rem;
+}
+.step{
+  /* margin: 2rem; */
+  margin-left: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  position:relative;
+  display:block;
+  background-color: #fbe2e5;
+  border-width: .5rem;
+  height: 3rem;
+  width: 56rem;
+  left:21rem;
+  font-size:2rem;
+
+}
+
 
 /* Media Queries */
+/* Standard screen-width device */
+@media screen and (max-width: 1200px) {
+  .step{
+    left:13rem;
+    font-size:2rem;
+  
+  }
+}
+@media screen and (max-width: 992px) {
+  .step{
+    left:4rem;
+    font-size:2rem;
+  }
+}
 
 @media screen and (max-width: 750px) {
   .main-head {
@@ -209,13 +247,23 @@ a:hover {
     width: 10rem;
     height: 10rem;
   }
+  .step{
+    left: 0;
+    font-size:2rem;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 672px) {
+  .step p{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .main-head {
     font-size: 2rem;
   }
-
   .email {
     font-size: 1.3rem;
   }
@@ -223,22 +271,13 @@ a:hover {
     width: 7rem;
     height: 7rem;
   }
-}
-
-
-.steps{
-  position:absolute;
-  font-size:20px;
-}
-.step{
-  margin: 20px;
-  position:relative;
-  display:block;
-  background-color: #fbe2e5;
-  border-width: 5px;
-  height: 30px;
-  width: 560px;
-  left:300px;
-  font-size:20px;
-
+  .steps-to-follow{
+    width: 100%;
+  }
+  .step{
+    height: 2rem;
+  }
+  .step p{
+    font-size: 13px;
+  }
 }
